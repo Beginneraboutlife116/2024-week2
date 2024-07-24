@@ -1,0 +1,91 @@
+@use '../abstracts' as *;
+
+.m {
+	&x-auto {
+		margin-inline: auto;
+	}
+
+	&x-start-auto {
+		margin-inline-start: auto;
+	}
+
+	&x-end-auto {
+		margin-inline-end: auto;
+	}
+}
+
+@each $size-name, $size-value in $sizes {
+	.m {
+		&-#{$size-name} {
+			margin: $size-value;
+		}
+
+		&x-#{$size-name} {
+			margin-inline: $size-value;
+		}
+
+		&x-start-#{$size-name} {
+			margin-inline-start: $size-value;
+		}
+
+		&x-end-#{$size-name} {
+			margin-inline-end: $size-value;
+		}
+
+		&y-#{$size-name} {
+			margin-block: $size-value;
+		}
+
+		&y-start-#{$size-name} {
+			margin-block-start: $size-value;
+		}
+
+		&y-end-#{$size-name} {
+			margin-block-end: $size-value;
+		}
+	}
+
+	.p {
+		&-#{$size-name} {
+			padding: $size-value;
+		}
+
+		&x-#{$size-name} {
+			padding-inline: $size-value;
+		}
+
+		&x-start-#{$size-name} {
+			padding-inline-start: $size-value;
+		}
+
+		&x-end-#{$size-name} {
+			padding-inline-end: $size-value;
+		}
+
+		&y-#{$size-name} {
+			padding-block: $size-value;
+		}
+
+		&y-start-#{$size-name} {
+			padding-block-start: $size-value;
+		}
+
+		&y-end-#{$size-name} {
+			padding-block-end: $size-value;
+		}
+	}
+
+	.g {
+		&-#{$size-name} {
+			gap: $size-value;
+		}
+
+		&x-#{$size-name} {
+			column-gap: $size-value;
+		}
+
+		&y-#{$size-name} {
+			row-gap: $size-value;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url("../../assets/fonts/BrunoAceSC-Regular.ttf") format("truetype");
+  font-weight: $fw-400;
+  font-style: normal;
+}

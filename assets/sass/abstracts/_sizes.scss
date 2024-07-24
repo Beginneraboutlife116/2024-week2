@@ -1,0 +1,30 @@
+$size: 0.25rem;
+$sizes: (
+	1: $size,
+	3: $size * 3,
+	4: $size * 4,
+	5: $size * 5,
+	6: $size * 6,
+	7: $size * 7,
+	8: $size * 8,
+	9: $size * 9,
+	10: $size * 10,
+	18: $size * 18,
+);
+
+$header-block-size: 8rem;
+
+$container-inline-size: 81rem;
+
+$section-padding-block-size: 10rem;
+
+$intro-decorate-inline-size: 8rem;
+$intro-decorate-block-size: 6.125rem;
+$intro-content-inline-size: 32.875rem;
+
+$aboutMe-list-inline-size: 39.75rem;
+$aboutMe-content-inline-size: 32.875rem;
+
+$contactMe-padding-block-size: 6rem;
+
+$myProject-margin-start-size: 32.875rem;

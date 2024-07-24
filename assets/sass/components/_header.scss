@@ -1,0 +1,19 @@
+@use '../abstracts' as *;
+
+.nav {
+	ul {
+		min-block-size: $header-block-size;
+	}
+
+	li {
+		max-inline-size: 278.5px;
+	}
+
+	a {
+		color: inherit;
+
+		&:hover {
+			color: clr(primary, 400);
+		}
+	}
+}

@@ -1,0 +1,8 @@
+@use '../abstracts' as *;
+@use './spacing' as *;
+
+.container {
+	@extend .mx-auto;
+
+	max-inline-size: $container-inline-size;
+}

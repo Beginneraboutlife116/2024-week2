@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.btn {
+	padding: size(3) size(6);
+	border-radius: 99em;
+	cursor: pointer;
+
+	&:hover {
+		filter: drop-shadow(0 0 size(4) clr(primary, 400));
+	}
+}
