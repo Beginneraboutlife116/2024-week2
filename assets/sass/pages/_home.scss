@@ -77,6 +77,7 @@
 
 .my-project {
 	h2 {
-		margin-inline-start: $myProject-margin-start-size;
+		max-inline-size: $myProject-inline-size;
+		margin-inline-start: auto;
 	}
 }
